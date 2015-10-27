@@ -1,0 +1,36 @@
+{
+  "name": "npm-sync",
+  "version": "0.0.0",
+  "description": "npm link on steroids: watch and reinstall a npm package on demand.",
+  "bin": {
+    "npm-sync": "./bin/npm-sync"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoziro/npm-sync.git"
+  },
+  "keywords": [
+    "npm",
+    "link",
+    "watch",
+    "install"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoziro/npm-sync/issues"
+  },
+  "homepage": "https://github.com/neoziro/npm-sync#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash.debounce": "^3.1.1",
+    "minimist": "^1.2.0",
+    "watch": "^0.16.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.4.3"
+  }
+}
