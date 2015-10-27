@@ -14,7 +14,7 @@ npm install npm-sync
 ## Usage
 
 ```sh
-watch ~/projects/module-to-link
+npm-sync ~/projects/module-to-link
 ```
 
 ## License
