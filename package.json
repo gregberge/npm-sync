@@ -26,9 +26,9 @@
   "homepage": "https://github.com/neoziro/npm-sync#readme",
   "dependencies": {
     "chalk": "^1.1.1",
-    "lodash.debounce": "^3.1.1",
+    "lodash.debounce": "^4.0.6",
     "minimist": "^1.2.0",
-    "watch": "^0.16.0"
+    "watch": "^0.18.0"
   },
   "devDependencies": {
     "rimraf": "^2.4.3"
